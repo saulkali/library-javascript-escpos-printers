@@ -11,11 +11,9 @@ class PrinterEscPos {
             contentType:"application/json",
             success: function (response) {
                 if(response.status == "OK"){
-
+                    console.log("success");
                 }else if(response.status == "ERROR"){
-                    M.toast({
-                        html:"error: " + response.error
-                    });
+                    console.log("error: "+response.error);
                 }
             }
         });

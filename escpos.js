@@ -87,9 +87,9 @@ class PrinterEscPos {
             dataType: "json",
             success: function (response) {
                 if(response.status == "OK"){
-                    M.toast({html:"Exito!!!"});
+                    console.log("success");
                 }else if(response.status == "ERROR"){
-                    M.toast({html:"error: " + response.error});
+                    console.log("error: "+response.error);
                 }
                 this.dataPrinter = [];
             },error: error =>{

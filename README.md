@@ -9,9 +9,9 @@
 ## como usuarlo
 ### para poder usar el plugin una vez importado podemos crear otro archivo js, donde podremos instanciar y dar uso de los metodos de este plugin.
 ### traer los nombres de las impresoras detectadas.
-'''javascript
+```javascript
 const imprimirTicket = () => {
     var impresora = new PrinterEscPos();
 };
 
-'''
+```

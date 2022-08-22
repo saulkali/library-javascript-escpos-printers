@@ -12,6 +12,12 @@
 ```javascript
 const imprimirTicket = () => {
     var impresora = new PrinterEscPos();
+    impresora.getPrinters().then(response =>{
+        if(response.status == "OK"){
+            response.listPrinter.forEach(namePrinter =>{
+                console.log(namePrinter);
+            });
+        }
+    });
 };
-
 ```

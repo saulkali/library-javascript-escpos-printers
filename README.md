@@ -39,4 +39,8 @@ const imprimirTicket = ()=>{
 };
 ```
 
+
+### video de youtube
+> https://youtu.be/iyvPs93k7ME
+
 # el uso de este script queda libre, si deseas quitar el marco de agua del plugin puedes contactarme

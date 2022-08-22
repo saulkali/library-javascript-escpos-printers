@@ -38,7 +38,8 @@ const imprimirTicket = ()=>{
     impresora.printerIn("lp0"); // una vez configurado el ticket pasamos a mandarlo a la impresora que deseamos imprimir el ticket
 };
 ```
-
+### para que esta libreria funcione es necesario instalar el plugin, lo puedes encontrar en el siguiente enlace.
+> https://github.com/saulkali/plugin-escpos-linux-javascript
 
 ### video de youtube
 > https://youtu.be/iyvPs93k7ME
